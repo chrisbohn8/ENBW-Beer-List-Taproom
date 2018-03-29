@@ -117,7 +117,7 @@ a:link {
 }
 
 .beer:hover {
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .beer:hover .beer-name {
@@ -179,12 +179,12 @@ a:link {
 .beer:last-child {
 	margin-bottom: 1.75rem;
 	margin-left: auto;
-	cursor: auto;
+	/*cursor: auto;*/
 }
 
 .tier-pricing {
 	display: flex;
-	cursor: default;
+	/*cursor: default;*/
 	margin: 5rem auto;
 	width: 92%;
 }
@@ -229,7 +229,7 @@ a:link {
 .closeBtn:hover, .closeBtn:focus{
 	color: #000;
 	text-decoration: none;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .modal-heading,
@@ -273,6 +273,7 @@ a:link {
 
 	html {
 		font-size: 16.5pt;
+		cursor: none;
 	}
 }
 
