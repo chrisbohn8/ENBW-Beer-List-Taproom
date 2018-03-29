@@ -303,16 +303,3 @@ function outsideClickWhm(e){
 		whmModal.style.display = 'none';
 	}
 }
-
-// //Get @media (width)
-// var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-// //Get #beers
-// var beerLength = document.getElementById('beers').childElementCount;
-// //Get white container
-// var html = document.getElementById('html');
-// //Log beers length
-// console.log(w)
-
-// if (beerLength > 12 && w >= 1250) {
-// 	html.style.fontSize = "12pt";
-// }
