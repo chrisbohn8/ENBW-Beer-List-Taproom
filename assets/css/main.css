@@ -65,7 +65,7 @@ body {
 .tier-content {
     font-family: RobotoSlab;
     font-weight: bold;
-    font-size: 1.5625rem;
+    font-size: 2rem;
     color: #233746;
     text-align: center;
 }
@@ -104,11 +104,11 @@ a:link {
 	align-content: space-between;
 }
 
-.beer:nth-child(even) {
+/*.beer:nth-child(even) {
 	border-left: solid 2px #ede5d7;
 	margin-left: -12px;
 	padding-left: 6px
-}
+}*/
 
 .beer {
 	display: flex;
