@@ -22,7 +22,7 @@ body {
 .beer-tier-text {
     font-family: Roboto;
     color: #d2b887;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .abv-content,
@@ -31,7 +31,7 @@ body {
     font-weight: bold;
     text-align: center;
     color: #233746;
-    font-size: 1.5625rem;
+    font-size: 1.8rem;
 
 }
 
