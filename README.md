@@ -4,9 +4,9 @@
 
 In order to add a beer to the list removed the comment markers surrounding the beer in the index.html file.
 
-For example, in order the add The Grievance to the beer remove the <-- and --> markers from around the HTML text.
+In order the add The Grievance to the beer remove the <-- and --> marker from around the HTML text.
 
-The following code will not display The Grievance.
+For example, The following code will not display The Grievance.
 
 
         <!-- The Grievance -->  
