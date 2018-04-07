@@ -183,6 +183,11 @@ a:link {
 	cursor: auto;
 }
 
+/* adjust wine-cider-list if there are 12 beers */
+.beer:first-child:nth-last-child(13) ~ .beer:last-child {
+	margin-top: -1.3rem;
+}
+
 .tier-pricing {
 	display: flex;
 	cursor: default;
