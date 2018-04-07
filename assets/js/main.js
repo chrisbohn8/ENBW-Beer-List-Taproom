@@ -1,3 +1,43 @@
+var beersOnDraft = document.getElementById("beers").children; 
+
+// Add Classes For 11 Beers On Draft
+
+if (beersOnDraft.length == 12){
+// Apply Class To All Beers
+    var i;
+    for (i = 1; i < beersOnDraft.length; i++) {
+        beersOnDraft[i].className += " elevenBeers";
+    }
+}
+
+
+// Add Classes For 12 Beers On Draft
+
+if (beersOnDraft.length == 13){
+// Apply Class To All Beers
+    for (i = 0; i < beersOnDraft.length; i++) {
+        beersOnDraft[i].className += " twelveBeers";
+    }
+}
+
+// Add Classes For 13 Beers On Draft
+
+if (beersOnDraft.length == 14){
+// Apply Class To All Beers
+    for (i = 0; i < beersOnDraft.length; i++) {
+        beersOnDraft[i].className += " thirteenBeers";
+    }
+}
+
+
+
+
+
+
+
+
+
+
 //Miro Modal
 // Get close button
 var closeBtnMiro = document.getElementById('closeBtnMiro');
@@ -31,6 +71,8 @@ function outsideClickMiro(e){
 var closeBtnCp = document.getElementById('closeBtnCp');
 // Get modal element
 var cpModal = document.getElementById('cpModal');
+// Get open modal button
+var modalBtnCp = document.getElementById('modalBtnCp');
 //Listen for open click
 modalBtnCp.addEventListener('click', openCpModal);
 //Listen for close click
@@ -301,5 +343,201 @@ function closeWhmModal(){
 function outsideClickWhm(e){
 	if(e.target == whmModal){
 		whmModal.style.display = 'none';
+	}
+}
+
+//Krautrock Modal
+// Get close button
+var closeBtnKr = document.getElementById('closeBtnKr');
+// Get modal element
+var krModal = document.getElementById('krModal');
+//Get open modal button
+var modalBtnKr = document.getElementById('modalBtnKr');
+//Listen for open click
+modalBtnKr.addEventListener('click', openKrModal);
+//Listen for close click
+closeBtnKr.addEventListener('click', closeKrModal);
+//Listen for outside click
+window.addEventListener('click', outsideClickKr);
+// Function to open modal
+function openKrModal(){
+	krModal.style.display = 'block';
+}
+// Function to close modal
+function closeKrModal(){
+	krModal.style.display = 'none';
+}
+//Function to close modal if outside click
+function outsideClickKr(e){
+	if(e.target == krModal){
+		krModal.style.display = 'none';
+	}
+}
+
+//Wes Coast Modal
+// Get close button
+var closeBtnWch = document.getElementById('closeBtnWch');
+// Get modal element
+var wchModal = document.getElementById('wchModal');
+//Get open modal button
+var modalBtnWch = document.getElementById('modalBtnWch');
+//Listen for open click
+modalBtnWch.addEventListener('click', openWchModal);
+//Listen for close click
+closeBtnWch.addEventListener('click', closeWchModal);
+//Listen for outside click
+window.addEventListener('click', outsideClickWch);
+// Function to open modal
+function openWchModal(){
+	wchModal.style.display = 'block';
+}
+// Function to close modal
+function closeWchModal(){
+	wchModal.style.display = 'none';
+}
+//Function to close modal if outside click
+function outsideClickWch(e){
+	if(e.target == wchModal){
+		wchModal.style.display = 'none';
+	}
+}
+
+// Hipster Dance Party Modal
+// Get close button
+var closeBtnHdp = document.getElementById('closeBtnHdp');
+// Get modal element
+var hdpModal = document.getElementById('hdpModal');
+//Get open modal button
+var modalBtnHdp = document.getElementById('modalBtnHdp');
+//Listen for open click
+modalBtnHdp.addEventListener('click', openHdpModal);
+//Listen for close click
+closeBtnHdp.addEventListener('click', closeHdpModal);
+//Listen for outside click
+window.addEventListener('click', outsideClickHdp);
+// Function to open modal
+function openHdpModal(){
+	hdpModal.style.display = 'block';
+}
+// Function to close modal
+function closeHdpModal(){
+	hdpModal.style.display = 'none';
+}
+//Function to close modal if outside click
+function outsideClickHdp(e){
+	if(e.target == hdpModal){
+		hdpModal.style.display = 'none';
+	}
+}
+
+//Blueberry Wheat Modal
+// Get close button
+var closeBtnBw = document.getElementById('closeBtnBw');
+// Get modal element
+var bwModal = document.getElementById('bwModal');
+//Get open modal button
+var modalBtnBw = document.getElementById('modalBtnBw');
+//Listen for open click
+modalBtnBw.addEventListener('click', openBwModal);
+//Listen for close click
+closeBtnBw.addEventListener('click', closeBwModal);
+//Listen for outside click
+window.addEventListener('click', outsideClickBw);
+// Function to open modal
+function openBwModal(){
+	bwModal.style.display = 'block';
+}
+// Function to close modal
+function closeBwModal(){
+	bwModal.style.display = 'none';
+}
+//Function to close modal if outside click
+function outsideClickBw(e){
+	if(e.target == bwModal){
+		bwModal.style.display = 'none';
+	}
+}
+
+//Coconut Creme Pie Modal
+// Get close button
+var closeBtnCcp = document.getElementById('closeBtnCcp');
+// Get modal element
+var ccpModal = document.getElementById('ccpModal');
+//Get open modal button
+var modalBtnCcp = document.getElementById('modalBtnCcp');
+//Listen for open click
+modalBtnCcp.addEventListener('click', openCcpModal);
+//Listen for close click
+closeBtnCcp.addEventListener('click', closeCcpModal);
+//Listen for outside click
+window.addEventListener('click', outsideClickCcp);
+// Function to open modal
+function openCcpModal(){
+	ccpModal.style.display = 'block';
+}
+// Function to close modal
+function closeCcpModal(){
+	ccpModal.style.display = 'none';
+}
+//Function to close modal if outside click
+function outsideClickCcp(e){
+	if(e.target == ccpModal){
+		ccpModal.style.display = 'none';
+	}
+}
+
+//Augustfest Modal
+// Get close button
+var closeBtnAf = document.getElementById('closeBtnAf');
+// Get modal element
+var afModal = document.getElementById('afModal');
+//Get open modal button
+var modalBtnAf = document.getElementById('modalBtnAf');
+//Listen for open click
+modalBtnAf.addEventListener('click', openAfModal);
+//Listen for close click
+closeBtnAf.addEventListener('click', closeAfModal);
+//Listen for outside click
+window.addEventListener('click', outsideClickAf);
+// Function to open modal
+function openAfModal(){
+	afModal.style.display = 'block';
+}
+// Function to close modal
+function closeAfModal(){
+	afModal.style.display = 'none';
+}
+//Function to close modal if outside click
+function outsideClickAf(e){
+	if(e.target == afModal){
+		afModal.style.display = 'none';
+	}
+}
+
+//I'm an IPA Agent Modal
+// Get close button
+var closeBtnIpaa = document.getElementById('closeBtnIpaa');
+// Get modal element
+var ipaaModal = document.getElementById('ipaaModal');
+//Get open modal button
+var modalBtnIpaa = document.getElementById('modalBtnIpaa');
+//Listen for open click
+modalBtnIpaa.addEventListener('click', openIpaaModal);
+//Listen for close click
+closeBtnIpaa.addEventListener('click', closeIpaaModal);
+//Listen for outside click
+window.addEventListener('click', outsideClickIpaa);
+// Function to open modal
+function openIpaaModal(){
+	ipaaModal.style.display = 'block';
+}
+// Function to close modal
+function closeIpaaModal(){
+	ipaaModal.style.display = 'none';
+}
+//Function to close modal if outside click
+function outsideClickIpaa(e){
+	if(e.target == ipaaModal){
+		ipaaModal.style.display = 'none';
 	}
 }

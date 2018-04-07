@@ -5,7 +5,7 @@ body {
 /* Fonts */
 
 .beer-name {
-    font-family: RobotoSlab;
+    font-family: Roboto;
     font-weight: bold;
     color: #233746;
     letter-spacing: 0.125rem;
@@ -15,7 +15,7 @@ body {
 .beer-tagline {
     font-family: Roboto;
     color: #6e757b;
-    font-size: 1.5625rem;f
+    font-size: 1.5625rem;
 }
 
 .abv-text, 
@@ -54,6 +54,7 @@ body {
     font-weight: bold;
     font-size: 1.875rem;
     color: #6e757b;
+    margin-top: .5rem
 }
 
 .tier-name {
@@ -357,11 +358,19 @@ a:link {
 	}
 }
 
-@media only screen and (min-width: 1250px) and (min-height: 900px){
+@media (device-width: 100vw) and (device-height: 100vh) {
 	body {
 		position: fixed;
 	}
 	#white-container {
 		height: 82%;
 	}
+}
+
+.thirteenBeers *{
+    
+}
+
+#hidden {
+    display: none
 }
